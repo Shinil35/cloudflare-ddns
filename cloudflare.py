@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from argparse import ArgumentParser
 import os
 import sys
@@ -58,11 +58,11 @@ def main():
     valid = True
 
     if not args.auth_api_key:
-        print 'CloudFlare API key required; use --auth-api-key or CF_API_KEY'
+        print('CloudFlare API key required; use --auth-api-key or CF_API_KEY')
         valid = False
 
     if not args.auth_email:
-        print 'CloudFlare email required; use --auth-email or CF_EMAIL'
+        print('CloudFlare email required; use --auth-email or CF_EMAIL')
         valid = False
 
     if not valid:

@@ -1,6 +1,10 @@
 # cloudflare-ddns
 
+Fork of https://github.com/ianunruh/cloudflare-ddns
+
 Python dynamic DNS client for the CloudFlare v4 API
+
+This fork is for providing python3 support
 
 ## Installation
 
